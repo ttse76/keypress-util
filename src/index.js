@@ -9,11 +9,11 @@ const getKey = (keyCode) => {
     const keyCodeNum = Number(keyCode);
     const key = Object.keys(KEY_CODES).find(key => KEY_CODES[key] === keyCodeNum);
 
-    if(!key) return -1;
+    if(!key) return 'NONE';
 
     return key;
   }catch(err){
-    return -1
+    return 'NONE';
   }
 };
 

@@ -7,8 +7,8 @@ test('gets valid key', () => {
   expect(getKey(keyCode)).toBe(testKey);
 });
 
-test('return -1 if key code does not exist', () => {
+test('return "NONE" if key code does not exist', () => {
   const testCode = 500;
 
-  expect(getKey(testCode)).toBe(-1);
+  expect(getKey(testCode)).toBe('NONE');
 });
