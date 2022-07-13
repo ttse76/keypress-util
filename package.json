@@ -1,0 +1,21 @@
+{
+  "name": "keypress-util",
+  "version": "0.0.1",
+  "description": "Utility to help identify pressed keys and evaluate keycodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "keypress-util"
+  },
+  "keywords": [
+    "keypress",
+    "keycode",
+    "utility",
+    "dictionary"
+  ],
+  "author": "ttse76",
+  "license": "ISC"
+}
