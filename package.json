@@ -17,5 +17,8 @@
     "dictionary"
   ],
   "author": "ttse76",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
 }
