@@ -1,4 +1,6 @@
 # Keypress Util
+![test](https://github.com/ttse76/keypress-util/actions/workflows/node.js.yml/badge.svg)
+
 A lightweight module for getting keycodes
 
 ## Installation
