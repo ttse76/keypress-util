@@ -1,4 +1,4 @@
-const keyCodes = require('./CODES.json');
+const KEY_CODES = require('./CODES.json');
 
 /**
  * Returns key associated with given keyCode
@@ -7,16 +7,17 @@ const keyCodes = require('./CODES.json');
 const getKey = (keyCode) => {
   try{
     const keyCodeNum = Number(keyCode);
-    const code = Object.keys(keyCodes).find(key => keyCodes[key] === keyCodeNum);
+    const key = Object.keys(KEY_CODES).find(key => KEY_CODES[key] === keyCodeNum);
 
-    if(!code) return -1;
+    if(!key) return -1;
 
-    return code;
+    return key;
   }catch(err){
     return -1
   }
 };
 
 module.exports = {
-  getKey
+  getKey,
+  KEY_CODES
 }
